@@ -46,27 +46,27 @@ class _ListAddPageState extends State<ListAddPage> {
 
             const SizedBox(height: 8,),
 
-            // TextButton(
-            //   onPressed: () {
-            //     DatePicker.showDateTimePicker(context,
-            //         showTitleActions: true,
-            //         minTime: DateTime(2023, 1, 1,11,22),
-            //         maxTime: DateTime(2024, 12, 31, 11, 22),
-            //         onChanged: (date) {
-            //         },
-            //         onConfirm: (date) {
-            //           setState(() {
-            //             deadLine = date.toString();
-            //           });
-            //         },
-            //         currentTime: DateTime.now(),
-            //         locale: LocaleType.jp
-            //     );
-            //   },
-            //   child: Text(deadLine,
-            //     style: TextStyle(color: Colors.blue),
-            //   ),
-            // ),
+            TextButton(
+              onPressed: () {
+                DatePicker.showDateTimePicker(context,
+                    showTitleActions: true,
+                    minTime: DateTime(2023, 1, 1,11,22),
+                    maxTime: DateTime(2024, 12, 31, 11, 22),
+                    onChanged: (date) {
+                    },
+                    onConfirm: (date) {
+                      setState(() {
+                        deadLine = date.toString();
+                      });
+                    },
+                    currentTime: DateTime.now(),
+                    locale: LocaleType.jp
+                );
+              },
+              child: Text(deadLine,
+                style: TextStyle(color: Colors.blue),
+              ),
+            ),
 
             FutureBuilder(
               future: ListPreferences.getList(),

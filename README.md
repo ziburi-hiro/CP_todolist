@@ -1,16 +1,31 @@
-# todoapp
+# ①課題番号-プロダクト名
+ToDoList APP
 
-A new Flutter project.
+## ②課題内容（どんな作品か）
 
-## Getting Started
+- ToDoリストアプリをFlutter(Dart)を用いて作成した
 
-This project is a starting point for a Flutter application.
+## ③DEMO
+- ネイティブアプリなので動画をアップします
 
-A few resources to get you started if this is your first Flutter project:
+## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- ID: 今回なし
+- PW: 今回なし
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## ⑤工夫した点・こだわった点
+
+- シンプルなUI
+- Localstrageを使ってアプリを消しても残るようにした
+
+## ⑥難しかった点・次回トライしたいこと(又は機能)
+
+- ToDoの期限や詳細などを記入できるようにして、Localstarageに保存できるようにしたかったがList<String>型でしか渡せずList<List<String>>型で渡そうとしてもうまくいかなかった
+- ToDoの締切は記載できるように実装はしたが保存して、ToDoリストに表示はできていない
+- 複数のデータを持つのでFireStoreなどを使って管理できるようにした方が楽だし、容量も食わないと感じた
+
+## ⑦質問・疑問・感想、シェアしたいこと等なんでも
+
+- [質問] 特になし
+- [感想] 今回JavaScriptではなくFlutterで実装したが、慣れもあるのか実装しやすく、見栄えもそれっぽくできた
+- [参考記事]
