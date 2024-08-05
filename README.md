@@ -33,4 +33,4 @@ ToDoList APP
 
 
 ***[demo]***
-![Uploading Simulator Screen Recording - iPhone 15 Plus - 2024-08-05 at 11.16.14.gif…]()
+![Simulator Screen Recording - iPhone 15 Plus - 2024-08-05 at 11 16 14](https://github.com/user-attachments/assets/da2fa244-12b1-4169-8ed7-26b9f4bb5446)
