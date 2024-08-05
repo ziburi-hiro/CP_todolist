@@ -8,7 +8,6 @@ ToDoList APP
 
 ## ③DEMO
 - ネイティブアプリなので動画をアップします
-  ![Uploading Simulator Screen Recording - iPhone 15 Plus - 2024-08-05 at 11.16.14.gif…]()
 
 ## ④作ったアプリケーション用のIDまたはPasswordがある場合
 
@@ -31,3 +30,7 @@ ToDoList APP
 - [質問] 特になし
 - [感想] 今回JavaScriptではなくFlutterで実装したが、慣れもあるのか実装しやすく、見栄えもそれっぽくできた
 - [参考記事]
+
+
+***[demo]***
+![Uploading Simulator Screen Recording - iPhone 15 Plus - 2024-08-05 at 11.16.14.gif…]()
